@@ -1,24 +1,20 @@
-<img
-  src="https://raw.githubusercontent.com/AlexisVisco/vscode-101header/master/101.png" 
-  width=128>
-
-#  Header for VSCode
+# Header for VSCode
 
 This extension provides the 101 header integration in VS Code.
 
 ```bash
-* ************************************************************************** *
-*                                                          LE - /            *
-*                                                              /             *
-*   get_next_line.c                                  .::    .:/ .      .::   *
-*                                                 +:+:+   +:    +:  +:+:+    *
-*   By: aviscogl <aviscogl@student.le-101.fr>      +:+   +:    +:    +:+     *
-*                                                 #+#   #+    #+    #+#      *
-*   Created: 2017/11/23 10:31:13 by aviscogl     #+#   ##    ##    #+#       *
-*   Updated: 2017/11/23 15:43:25 by aviscogl    ###    #+. /#+    ###.fr     *
-*                                                         /                  *
-*                                                        /                   *
-* ************************************************************************** *
+********************************************************************************
+*                                                                              *
+*                                                                              *
+*    get_next_line.c                                                           *
+*                                                                              *
+*    By: lmistie <romaniy11052001@gmail.com>                                   *
+*                                                                              *
+*    Created: 2022/04/22 17:36 by lmistie                                      *
+*    Updated: 2022/04/22 17:56 by lmistie                                      *
+*                                                                              *
+*                                                                              *
+********************************************************************************
 ```
 
 ## Install
@@ -51,13 +47,6 @@ To override these values, specify these properties in *User Settings* :
 ```
 
 
-## Issues
-
-To report a bug or ask for a feature, please open a [Github issue](https://github.com/AlexisVisco/vscode-101header/issues).
-
-
 ## License
 
 MIT
-
-**It's a fork from this repo https://github.com/kube/vscode-42header, real author is kube)**

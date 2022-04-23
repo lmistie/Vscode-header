@@ -1,14 +1,18 @@
 {
-  "name": "header_lmistie",
-  "displayName": "LMISTIE Header",
-  "description": "LMISTIE header for VSCode : www.le-101.fr",
+  "name": "101header",
+  "displayName": "101 Header",
+  "description": "101 header for VSCode : www.le-101.fr",
   "version": "0.42.7",
-  "publisher": "lmistie",
+  "publisher": "alexisvisco",
+  "icon": "101.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lmistie/Vscode-header.git/"
+    "url": "https://github.com/AlexisVisco/vscode-101header/"
   },
-  "homepage": "https://github.com/lmistie/Vscode-header.git",
+  "bugs": {
+    "url": "https://github.com/AlexisVisco/vscode-101header/issues"
+  },
+  "homepage": "https://github.com/AlexisVisco/vscode-101header",
   "license": "MIT",
   "engines": {
     "vscode": "^1.6.0"
@@ -25,18 +29,18 @@
       "properties": {
         "101header.username": {
           "type": "string",
-          "description": "Username to use in headers"
+          "description": "Username to use in 101 headers"
         },
         "101header.email": {
           "type": "string",
-          "description": "Email address to use in headers"
+          "description": "Email address to use in 101 headers"
         }
       }
     },
     "commands": [
       {
         "command": "101header.insertHeader",
-        "title": "Insert header",
+        "title": "Insert 101 header",
         "when": "editorTextFocus"
       }
     ],
